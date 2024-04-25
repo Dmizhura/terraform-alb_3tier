@@ -95,7 +95,7 @@ variable "launch_template_name" {
 }
 
 variable "ec2_image_id" {
-  default       = "ami-07fc18ce0678c191e"
+  default       = "ami-0f57e8ff75c54722f"
   description   = "id of the ami"
   type          = string
 }
@@ -109,5 +109,18 @@ variable "ec2_instance_type" {
 variable "ec2_key_pair_name" {
   default       = "work"
   description   = "name of the ec2 key pair"
+  type          = string
+}
+
+# route 53 variables
+variable "domain_name" {
+  default       = "dzhuraproject.com"
+  description   = "domain name"
+  type          = string
+}
+
+variable "record_name" {
+  default       = "www"
+  description   = "sub domain name"
   type          = string
 }
