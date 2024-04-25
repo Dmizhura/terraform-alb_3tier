@@ -1,2 +1,3 @@
-# terraform-projects
-This is a repo for my terraform projects
+# Terraform Ecommerce 3 Tier Architecture Project
+
+![Alt text](terraform-ecommerce.jpg)
